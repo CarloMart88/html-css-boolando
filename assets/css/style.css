@@ -7,9 +7,6 @@
 
 
 /*Utility class */
-i {
-  color: white;
-}
 
 .bg-orange {
   background-color: #FF6900;
@@ -64,6 +61,8 @@ header {
 .picture {
   position: relative;
 }
+
+.card {}
 
 /*content class */
 
