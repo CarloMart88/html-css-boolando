@@ -24,6 +24,10 @@
 
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .red {
   color: red;
 }
@@ -49,8 +53,20 @@
   padding: 0 5px;
 }
 
+.py-5 {
+  padding-bottom: 5px;
+}
+
+.py-10 {
+  padding-bottom: 10px;
+}
+
 .line {
   text-decoration: line-through;
+}
+
+.my-20 {
+  margin-top: 30px;
 }
 
 /*layout class */
@@ -60,20 +76,26 @@ body {
   border: 1px solid black;
 }
 
-header {
+header,
+footer {
   width: 100%;
   height: auto;
   display: flex;
   z-index: 1;
-  padding: 20px 0;
+  padding: 25px 0;
   align-items: center;
-  margin-bottom: 25px;
+
 }
+
 
 main {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+p {
+  font-size: 11.5px;
 }
 
 .position {
