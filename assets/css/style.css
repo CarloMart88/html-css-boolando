@@ -1,4 +1,45 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  border: 2px solid black;
 }
+
+/*Utility class */
+.bg-orange {
+  background-color: #FF6900;
+}
+
+.lista.white {
+  color: white;
+}
+
+.lista {
+  list-style: none;
+}
+
+/*layout class */
+
+body {
+  max-width: 1200px;
+  height: 1200px;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*content class */
