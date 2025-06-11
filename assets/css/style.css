@@ -9,11 +9,22 @@
 /*Utility class */
 i {
   color: white;
-
 }
 
 .bg-orange {
   background-color: #FF6900;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
 }
 
 .lista.white {
@@ -38,6 +49,7 @@ i {
 body {
   max-width: 1200px;
   height: 1200px;
+  border: 1px solid black;
 }
 
 header {
@@ -49,11 +61,16 @@ header {
   align-items: center;
 }
 
+.picture {
+  position: relative;
+}
+
+/*content class */
+
+
 img.logo {
   width: max-content;
   height: 50px;
 
 
 }
-
-/*content class */
