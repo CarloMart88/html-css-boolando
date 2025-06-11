@@ -121,3 +121,19 @@ img.logo {
   padding: 0;
   list-style: none;
 }
+
+.front-image {
+  display: block;
+}
+
+.back-image {
+  display: none;
+}
+
+.card:hover .front-image {
+  display: none;
+}
+
+.card:hover .back-image {
+  display: block;
+}
