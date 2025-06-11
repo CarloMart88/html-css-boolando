@@ -25,6 +25,10 @@
 
 }
 
+.red {
+  color: red;
+}
+
 .bianco {
   color: white;
 }
@@ -46,6 +50,9 @@
   padding: 0 5px;
 }
 
+.line {
+  text-decoration: line-through;
+}
 
 /*layout class */
 body {
@@ -102,10 +109,10 @@ header {
   position: absolute;
   top: 10%;
   right: 0%;
-  width: 20px;
-  height: 30px;
-  display: flex;
-  align-items: center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 17px;
 }
 
 /*content class */
@@ -135,5 +142,22 @@ img.logo {
 }
 
 .card:hover .back-image {
+  display: block;
+}
+
+.cuore {
+  display: block;
+}
+
+.cuore-rosso {
+  display: none;
+  color: red;
+}
+
+.card:hover .cuore {
+  display: none;
+}
+
+.card:hover .cuore-rosso {
   display: block;
 }
